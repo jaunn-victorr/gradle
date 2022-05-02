@@ -1,13 +1,11 @@
 package gradlegs;
 
 public class PessoaFisica extends Pessoa{
-    private String CPF;
-    
-    public void setCPF(String CPF) {
-        this.CPF = CPF;
+    public void setNumRf(String numRf) {
+        this.numRf = numRf;
     }
 
-    public String getCPF() {
-        return CPF;
+    public String getNumRf() {
+        return this.numRf;
     }
 }
