@@ -5,7 +5,12 @@ public class App {
         Genero g = new Genero();
         g.setId(-10);
         g.setNome("Aventura");
-        //System.out.println("olá mundo");
+
+        PessoaFisica p = new PessoaFisica();
+        p.setNome("José da Silva");
+        p.setCPF("12345678910");
+
+        System.out.println("olá gradle");
         System.out.println(g.getNome());
     
     }
